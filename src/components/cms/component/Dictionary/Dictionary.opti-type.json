@@ -1,0 +1,39 @@
+{
+  "key": "Dictionary",
+  "displayName": "Application labels dictionary",
+  "description": "A dictionary of labels that can be used by a frontend",
+  "baseType": "component",
+  "sortOrder": 100,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "created": "2024-05-10T13:10:21.3914301+00:00",
+  "lastModified": "2024-05-10T13:29:10.2482995+00:00",
+  "properties": {
+    "DictionaryItems": {
+      "type": "array",
+      "displayName": "Items",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 10,
+      "editorSettings": {},
+      "items": {
+        "type": "component",
+        "contentType": "DictionaryItem"
+      }
+    },
+    "DictionaryKey": {
+      "type": "string",
+      "format": "shortString",
+      "displayName": "Key",
+      "description": "The key used by the frontend to find this dictionary",
+      "localized": false,
+      "required": true,
+      "group": "Advanced",
+      "sortOrder": 10,
+      "indexingType": "searchable",
+      "editorSettings": {}
+    }
+  }
+}

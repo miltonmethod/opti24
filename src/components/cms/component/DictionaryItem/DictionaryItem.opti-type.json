@@ -1,0 +1,35 @@
+{
+  "key": "DictionaryItem",
+  "displayName": "Dictionary Item",
+  "description": "",
+  "baseType": "component",
+  "sortOrder": 100,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "created": "2024-05-10T13:08:06.4967706+00:00",
+  "lastModified": "2024-05-10T13:12:55.202353+00:00",
+  "properties": {
+    "DictionaryItemKey": {
+      "type": "string",
+      "format": "shortString",
+      "displayName": "Key",
+      "description": "",
+      "localized": false,
+      "required": true,
+      "group": "Information",
+      "sortOrder": 10,
+      "editorSettings": {}
+    },
+    "DictionaryItemValue": {
+      "type": "string",
+      "format": "shortString",
+      "displayName": "Value",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 20,
+      "editorSettings": {}
+    }
+  }
+}
